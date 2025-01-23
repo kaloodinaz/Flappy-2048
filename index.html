@@ -2,19 +2,25 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Flappy 2048</title>
-
+    <link rel="manifest" href="/manifest.json" />
+	<meta name="theme-color" content="#151515" />
+  <title>Flappy 2048: A Fun Twist on Two Classic Games</title>
+<meta name="description" content="Combine the addictive fun of 2048 with the excitement of Flappy Bird in this unique mashup! Test your skills, strategize, and fly your way to victory in 2048 Flappy Bird. Play now for free!">
   <link href="style/main.css" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+<script>
+      if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('sw.js')
+      .then(registration => {console.log('Service Worker registered successfully:', registration);})
+      .catch(error => {console.log('Error in Service Worker registration:', error);});});}
+      </script>
   <div class="container">
     <div class="heading">
       <h1 class="title">Flappy 2048</h1>
@@ -73,31 +79,62 @@
     <p class="game-explanation">
       <strong class="important">How to play:</strong> Press <strong>any key</strong> to move the tile. When the tile go through a barrier, you get <strong>score!</strong>
     </p>
+  <hr>
+	  <h1>2048 Flappy Bird: A Fun Twist on Two Classic Games</h1>
+	   <p>Imagine combining two of the most addictive games ever created—2048 and Flappy Bird. The result? A thrilling mashup that tests your strategy and reflexes at the same time: <strong>2048 Flappy Bird</strong>. This unique game brings together the puzzle-solving mechanics of 2048 and the high-intensity gameplay of Flappy Bird for a completely new and exciting experience.</p>
+
+        <h2>What is 2048 Flappy Bird?</h2>
+        <p>2048 Flappy Bird is a creative fusion of the popular tile-merging puzzle game 2048 and the endless flapping adventure of Flappy Bird. In this hybrid game, players must navigate a bird through obstacles while simultaneously aiming to merge numbered tiles, just like in 2048. The ultimate goal is to reach the 2048 tile, all while avoiding hazards that could end the game.</p>
+
+        <h2>How to Play 2048 Flappy Bird</h2>
+        <p>The rules of 2048 Flappy Bird combine elements from both original games, creating a simple yet challenging experience:</p>
+        <ul>
+            <li>Use your keyboard or touchscreen to make the bird flap and navigate through obstacles.</li>
+            <li>As you pass through obstacles, tiles with numbers appear.</li>
+            <li>Guide the bird to collect tiles and merge them to create higher-numbered tiles, just like in 2048.</li>
+            <li>Avoid crashing into pipes or missing tiles, as this will end the game.</li>
+        </ul>
+        <p>The combination of fast reflexes and strategic planning makes this game uniquely engaging.</p>
+
+        <h2>Why is 2048 Flappy Bird So Popular?</h2>
+        <p>2048 Flappy Bird has gained popularity for a number of reasons:</p>
+        <ul>
+            <li><strong>Creative Gameplay:</strong> The game blends two different mechanics seamlessly, offering a fresh and exciting experience.</li>
+            <li><strong>Addictive Challenge:</strong> Players are drawn to the game’s combination of reflex-based gameplay and puzzle-solving strategy.</li>
+            <li><strong>Replayability:</strong> Every attempt feels unique, keeping players coming back for more.</li>
+            <li><strong>Nostalgia:</strong> Fans of the original 2048 and Flappy Bird love the nostalgic elements woven into this new game.</li>
+        </ul>
+
+        <h2>Tips and Tricks to Master 2048 Flappy Bird</h2>
+        <p>If you’re ready to take on the challenge, these tips will help you improve your performance:</p>
+        <ol>
+            <li>Focus on avoiding obstacles first; surviving the level is more important than merging tiles.</li>
+            <li>Plan your moves strategically. Look ahead to see where tiles are located and align the bird accordingly.</li>
+            <li>Stay calm. The game can get intense, but maintaining focus is key to achieving a high score.</li>
+            <li>Practice regularly. As with both original games, practice helps you master the mechanics.</li>
+        </ol>
+
+        <h2>Where to Play 2048 Flappy Bird</h2>
+        <p>2048 Flappy Bird can be played for free on various online gaming platforms. Simply search for the game and start playing directly in your browser without any downloads or installations. Some platforms may also offer mobile-friendly versions, making it easy to enjoy on the go.</p>
+
+        <h2>Conclusion</h2>
+        <p>2048 Flappy Bird is the perfect game for fans of both 2048 and Flappy Bird, offering a thrilling mashup of strategy and reflex-based gameplay. Whether you’re looking for a quick gaming session or aiming to master the game’s mechanics, 2048 Flappy Bird guarantees hours of fun and excitement. So why wait? Give it a try and see if you can reach the coveted 2048 tile while keeping your bird safely in flight!</p>
+   
     <hr>
     <p>
-    Created by <a href="http://github.com/hczhcz" target="_blank">hcz.</a> Based on <a href="http://gabrielecirulli.com" target="_blank">2048 by Gabriele Cirulli</a> and <a href="http://en.wikipedia.org/wiki/Flappy_Bird" target="_blank">Flappy Bird by Dong Nguyen.</a>
+    Created by <a href="https://kaloodinaz.github.io/" target="_blank">Kaloo Dinaz.</a> Based on <a href="https://kaloodinaz.github.io/2048-online/" target="_blank">2048 by Kaoo Dinaz</a> and <a href="http://en.wikipedia.org/wiki/Flappy_Bird" target="_blank">Flappy Bird by Dong Nguyen.</a>
     </p>
     <hr>
-    <p>More 2048 games:</p>
-    <p>
-      <a href="https://hczhcz.github.io/Racing-2048">Racing 2048</a>,
-      <a href="https://hczhcz.github.io/Step-2048">Step the 2048 tile</a>,
-      <a href="https://hczhcz.github.io/2048">Upside down</a>,
-      <a href="https://hczhcz.github.io/2048/2047">Role reversal</a>,
-      <a href="https://hczhcz.github.io/2048/20ez">Easy ver</a>,
-      <a href="https://hczhcz.github.io/2048/2hrd">Hard ver</a>,
-      <a href="https://hczhcz.github.io/2048/meow">喵 ver</a>,
-      <a href="https://hczhcz.github.io/my-2048">Customizable 2048</a>
-    </p>
+   
   </div>
 
-  <script src="js/animframe_polyfill.js"></script>
-  <script src="js/keyboard_input_manager.js"></script>
-  <script src="js/html_actuator.js"></script>
-  <script src="js/grid.js"></script>
-  <script src="js/tile.js"></script>
-  <script src="js/local_score_manager.js"></script>
-  <script src="js/game_manager.js"></script>
-  <script src="js/application.js"></script>
+  <script defer src="js/animframe_polyfill.js"></script>
+  <script defer src="js/keyboard_input_manager.js"></script>
+  <script defer src="js/html_actuator.js"></script>
+  <script defer src="js/grid.js"></script>
+  <script defer src="js/tile.js"></script>
+  <script defer src="js/local_score_manager.js"></script>
+  <script defer src="js/game_manager.js"></script>
+  <script defer src="js/application.js"></script>
 </body>
 </html>
